@@ -122,4 +122,47 @@ a:hover {
         margin: 0 auto;
         height: 100vh;
     }
+    .client {
+        background-color: #bfc9d2;
+        border:2px solid #1e3970;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 50%;
+        cursor: pointer;
+    
+    }
+    .client:hover {
+        background-color: #bfc9d2;
+        border:5px solid #ff6701;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 50%;
+        cursor: pointer;
+    
+    }
+    .client:focus  {
+        background-color: #1e3970;
+        border:2px solid #ff6701;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 50%;
+        cursor: pointer;
+        color:white;
+    
+    }
 }
